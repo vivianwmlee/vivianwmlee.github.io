@@ -1,0 +1,41 @@
+body {	
+background-color: #B7B5BD
+}
+
+
+h1	{
+	font-family: Gill-Sans, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+}
+
+
+#slogan	{   
+	text-align: center;
+	color: green;
+	font-style: italic;
+
+ }
+
+ p {
+ 	font-family: Gill Sans, sans-serif;
+ }
+
+ ul	{
+ 	text-align: left;
+ 	color: purple;
+ 	font-weight: bold;
+ 	font-family: Gill Sans, sans-serif;
+
+ }
+
+ a href	{
+ 	font-family: Gill Sans, sans-serif;
+ 	font-size: 18px;
+ }
+
+
+
