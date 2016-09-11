@@ -1,0 +1,42 @@
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+body {	
+background-color: #B7B5BD
+}
+
+
+h1	{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+
+#slogan	{   
+	text-align: center;
+	color: green;
+	font-style: italic;
+	font-family: 'Dosis', sans-serif;
+
+ }
+
+
+ ul	{
+ 	text-align: left;
+ 	color: purple;
+ 	font-weight: bold;
+ 	font-family: 'Dosis', sans-serif;
+
+ }
+
+ a href	{
+ 	font-size: 18px;
+ 	font-family: 'Dosis', sans-serif;
+ }
+
+
+

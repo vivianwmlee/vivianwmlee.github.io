@@ -1,0 +1,183 @@
+
+h1	{
+	font-family: 'Annie Use Your Telescope', cursive;
+	text-align: center;
+	color: #404F5C;
+	text-shadow: 2px 2px grey;
+	text-transform: uppercase;
+	font-size: 6em;
+	background-color: #FFED74;
+	border: 1px black solid;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 5px;
+}
+
+
+nav	{
+	text-align: center;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	color: #404F5C;
+
+}
+
+nav a {
+	padding: 25px 25px;
+	text-decoration: none;
+}
+
+section {
+
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	display: block;
+	height: 300px;
+	width: auto;
+}
+
+h2 {
+	background-color: #E89C6C;
+	padding: 1px 50px 1px 50px;
+	text-decoration-color: grey;
+
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	display: block;
+	width: 60%;
+
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Prompt', sans-serif;
+	width: 100%;
+	clear: both;
+}
+
+img {
+    border-style: none;
+    border-width: 1px;
+    border-color: #000000;
+    max-height: 100%;
+    max-width: 100%;
+  
+}
+
+p {
+	
+	line-height: 2em;
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+
+
+body {
+	font-family: 'Prompt', sans-serif;
+	font-size: 18px;
+	color: #404F5C;
+    
+}
+
+#cover {
+padding: 0;
+width: 100%;
+}
+
+.one {
+	height: 400px;
+	width: 46%;
+	padding-left: 20px
+	padding-right: 20px;
+}
+
+.wrapper {
+    width:100%
+    margin: 1px auto;
+}
+
+.foodpic {
+	height: 400px;
+	width: 420px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.two {
+	height: 400px;
+	width: 46%;
+	padding-left: 20px
+	padding-right: 20px;
+}
+
+.playpic {
+	height: 400px;
+	width: 420px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.three {
+	height: 400px;
+	width: 46%;
+	padding-left: 20px
+	padding-right: 20px;
+}
+
+.four {
+	height: 400px;
+	width: 46%;
+	padding-left: 20px
+	padding-right: 20px;
+}
+
+.five {
+	height: 400px;
+	width: 46%;
+	padding-left: 20px
+	padding-right: 20px;
+}
+
+
+.gopic {
+	height: 400px;
+	width: 420px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.gearpic {
+	height: 400px;
+	width: 420px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.wearpic {
+	height: 400px;
+	width: 420px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
