@@ -1,0 +1,225 @@
+
+h1	{
+	font-family: 'Annie Use Your Telescope', cursive;
+	text-align: center;
+	color: #404F5C;
+	text-shadow: 2px 2px grey;
+	text-transform: uppercase;
+	font-size: 6em;
+	background-color: #FFED74;
+	border: 1px black solid;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 5px;
+}
+
+
+nav	{
+	text-align: center;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	color: #404F5C;
+
+}
+
+nav a {
+	padding: 25px 25px;
+	text-decoration: none;
+}
+
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	display: block;
+	height: 300px;
+	width: auto;
+}
+
+h2 {
+	padding: 1px 50px 1px 50px;
+	text-decoration-color: grey;
+
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	display: block;
+	width: 60%;
+
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Prompt', sans-serif;
+	width: 100%;
+	clear: both;
+}
+
+img {
+    border-style: none;
+    border-width: 1px;
+    border-color: #000000;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+ 	margin: auto;
+  
+}
+
+p {
+	line-height: 2em;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+body {
+	font-family: 'Prompt', sans-serif;
+	font-size: 18px;
+	color: #404F5C;
+    
+}
+
+
+#cover {
+padding: 0;
+width: 100%;
+}
+
+#one {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+.wrapper {
+    width: 100%
+    margin: 1px auto;
+}
+
+#foodpic {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+#two {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+#playpic {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+#three {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+#four {
+   background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+#five {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+
+#gopic {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+#gearpic {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+#wearpic {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+#eat {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#play {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#wear {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+#go {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#gear {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
