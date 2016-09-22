@@ -1,0 +1,163 @@
+@import 'https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope';
+@import 'https://fonts.googleapis.com/css?family=Prompt';
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans+SC';
+
+h1	{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	color: #404F5C;
+	text-shadow: 2px 2px grey;
+	text-transform: uppercase;
+	font-size: 6em;
+	border: 1px black solid;
+}
+
+header {
+	border: 1px black solid;
+	padding: 5px;
+}
+
+
+nav	{
+	text-align: center;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+nav a {
+	padding: 25px 25px;
+	text-decoration: none;
+    color: #404F5C;
+    font-size: 15px;
+}
+
+nav a:visited {
+    color: #7f7986;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+h2 {
+	padding: 1px 50px 1px 50px;
+	text-decoration-color: grey;
+
+}
+
+
+footer {
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Prompt', sans-serif;
+	width: 100%;
+	clear: both;
+}
+
+img {
+    border-style: none;
+    border-width: 1px;
+    border-color: #000000;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+p {
+	line-height: 2em;
+	padding-left: 50px;
+	padding-right: 50px;
+    color: #404F5C;
+    font-size: 18px;
+}
+
+
+body {
+   font-family: 'Prompt', serif;
+
+
+}
+
+.coverimage {
+position: relative;
+}
+
+.text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 800px 300px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-shadow: 3px 3px 3px #000;
+}
+.coverimage img {
+padding: 0;
+width: 100%;
+opacity: 0.85;
+filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+
+
+
+
+
+.wrapper {
+    width: 100%
+    margin: 1px auto;
+}
+
+
+#eat {
+    padding: 10px;
+    float: left;
+}
+
+#play {
+    padding: 10px;
+    float: left;
+}
+
+#wear {
+    padding: 10px;
+    float: left;
+}
+
+#go {
+    padding: 10px;
+    float: left;
+}
+
+#gear {
+    padding: 10px;
+    float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix a:hover {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
