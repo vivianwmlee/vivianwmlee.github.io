@@ -1,7 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope';
 @import 'https://fonts.googleapis.com/css?family=Prompt';
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans+SC';
-
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Prompt', serif;
+	color: #404F5C;
+    font-size: 18px;
+    line-height:1.5;
+}
 h1	{
 	font-family: 'Alegreya Sans SC', sans-serif;
 	text-align: center;
@@ -56,48 +62,45 @@ footer {
 	width: 100%;
 	clear: both;
 }
-
-img {
-    border-style: none;
-    border-width: 1px;
-    border-color: #000000;
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-    margin: auto;
-    padding: 30px;
+#links a {
+	float:left;
+	margin:.5%;
+	position:relative;
+	width:19%;
 }
-
-p {
-	line-height: 2em;
-	padding-left: 50px;
-	padding-right: 50px;
-    color: #404F5C;
-    font-size: 18px;
+#links img {
+    width: 100%;
 }
-
-
-body {
-   font-family: 'Prompt', serif;
-
-
+#links p {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
 }
-
+#links a:hover {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
 .coverimage {
-position: relative;
+	position: relative;
+	background: url(../images/cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
 }
 
 .text {
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 50%;
-    width: 100%;
-    text-align: center;
-    padding: 0px 0px 800px 300px;
+    transform: translate(-50%,-50%);
     color: white;
     font-size: 100px;
     font-family: 'Alegreya Sans SC', sans-serif;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
 .coverimage img {
 padding: 0;
@@ -152,12 +155,4 @@ filter: blur(2px);
     content: " ";
     clear: both;
     height: 0;
-}
-
-.clearfix a:hover {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
 }
