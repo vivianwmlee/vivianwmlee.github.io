@@ -1,6 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope';
 @import 'https://fonts.googleapis.com/css?family=Prompt';
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans+SC';
+@import 'https://fonts.googleapis.com/css?family=Julius+Sans+One';
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Prompt', serif;
@@ -9,7 +11,7 @@ body {
     line-height:1.5;
 }
 h1	{
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	color: #404F5C;
 	text-shadow: 2px 2px grey;
@@ -62,11 +64,25 @@ footer {
 	width: 100%;
 	clear: both;
 }
+
+
+.clearfix a p {
+    display:none;    
+}
+
+.clearfix a:hover p {
+    display: block;
+    color: white;
+    font-size: 25px;
+
+}
+
 #links a {
 	float:left;
 	margin:.5%;
 	position:relative;
 	width:19%;
+
 }
 #links img {
     width: 100%;
@@ -76,14 +92,14 @@ footer {
 	top:50%;
 	left:50%;
 	transform:translate(-50%, -50%);
+
 }
+
 #links a:hover {
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
+    -webkit-filter: saturate(1.25);
+    filter: saturate(1.25);
 }
+
 .coverimage {
 	position: relative;
 	background: url(../images/cover.jpg);
@@ -96,10 +112,9 @@ footer {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
     color: white;
-    font-size: 100px;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
     text-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
 .coverimage img {
@@ -112,8 +127,6 @@ filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
 }
-
-
 
 
 
@@ -148,6 +161,10 @@ filter: blur(2px);
     float: left;
 }
 
+#Eat_page {
+
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -155,4 +172,11 @@ filter: blur(2px);
     content: " ";
     clear: both;
     height: 0;
+}
+
+.pics img{
+    padding: 10px;
+    margin: auto;
+    display: block;
+
 }
