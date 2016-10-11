@@ -58,11 +58,14 @@ h2 {
 
 
 footer {
-	border: 1px black solid;
+    border: 1px black solid;
 	padding: 20px;
 	font-family: 'Prompt', sans-serif;
-	width: 100%;
+	width: 30%;
 	clear: both;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -240,6 +243,14 @@ hr {
   margin: auto;
 }
 
+#intro {
+    font-size: 250%;
+    padding: 0 150px 15px 150px;
+    display: block;
+    margin: auto;
+}
+
+
 @media only screen and (max-width: 1252px) {
     .text {
         font-size: 250%;
@@ -325,4 +336,4 @@ hr {
     display: block; 
 }
 
-}
+    
